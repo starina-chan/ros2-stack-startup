@@ -1,6 +1,6 @@
 # ros2-stack-startup
 
-System-wide systemd service that starts a robot's ROS 2 stack at boot, without anyone needing to log in.
+A set of systemd templates that start your robot's ROS 2 stack at boot with no login, bring up the CAN bus, restart the stack if it crashes, and stop it cleanly.
 
 The included files are an example for an AgileX LIMO and an AgileX SCOUT Mini. Edit them to fit your robot.
 
